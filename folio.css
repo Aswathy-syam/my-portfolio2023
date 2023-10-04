@@ -1,0 +1,1104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
+    position:absolute;
+    width: 100%;
+    height: 600vh;
+    /* background-color: aqua; */
+    
+}
+
+
+nav{
+   position: fixed;
+    width: 20%;
+    background-color:rgb(8, 5, 5);
+    height: 600vh;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+nav img{
+    width: 158px;
+   
+    border-radius: 30%;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+#menu{
+    position: fixed;
+    top: 15px; right: 2rem;
+   
+    color: black;
+    cursor: pointer;
+    font-size: 2.5rem;
+    /* padding: 1rem 1.5rem; */
+    z-index: 1000;
+    display: none;
+
+}
+
+/* @media(max-width:991px){
+    nav{
+        width: 100%;
+
+        height: 15%;
+        position: relative;
+        text-align: center;
+        position: static;
+        justify-content: space-between;
+    }
+    #menu{
+        display: none;
+    }
+    ul{
+        margin-left:15px;
+    }
+} */
+/*  */
+
+
+   
+
+/*  */
+
+nav ul{
+    margin-top: 100px;
+}
+nav li{
+    margin-top: 30px;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 80px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover{
+    color:yellow;
+   }
+#title{
+    text-align: center;
+    /* margin-left: 25%; */
+    margin-top: 200px;
+    line-height: 52px;
+}
+#title h4{
+    color:rgb(223, 93, 46); ;
+    
+}
+#title h2{
+    font-size: 34px;
+}
+
+#title span{
+    color: rgb(243, 87, 30); 
+    font-size: 34px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    width: 150px;
+    height: 35px;
+    background-color:rgb(243, 87, 30) ;
+    border: 5px;
+    border-radius: 5px solid;
+}
+
+
+#about .about-heading {
+    margin-top: 35%;
+    margin-left: 50%;
+}
+.about span{
+    color: rgb(243, 87, 30);
+}
+.abt-icon i{
+    font-size: 250px;
+   
+
+}
+.abt-icon{
+    margin-left: 30%;
+}
+.abt{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.abt-content{
+   margin-left: 85px;
+  margin-top: 20px;
+ line-height: 30px;
+}
+.abt-content .h3{
+    color:rgb(243, 87, 30) ;
+}
+.details{
+    font-size: 12px;
+    margin-top: 18px;
+    
+}
+
+.interests{
+    margin-left:53%;
+    margin-top: 40px;
+   
+}
+.interests span{
+    color:rgb(243, 87, 30) ;
+}
+.my-interests{
+    display: flex;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  
+}
+.musicc{
+    display: flex;
+    padding-right: 15px;
+    font-size: 15px;
+}
+.music-icon i{
+    color:rgba(7, 7, 145, 0.788) ;
+    padding-right: 5px;
+}
+
+.travelmain{
+    display: flex;
+    font-size: 15px;
+}
+.travel-icon i{
+    padding-right: 5px;
+    color:rgba(7, 7, 145, 0.788) ;
+}
+.movie{
+    display: flex;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.mvicon i{
+    color: rgba(7, 7, 145, 0.788);
+    padding-right: 5px;
+}
+.education-heading{
+    margin-left: 50%;
+    margin-top: 25%;
+    font-size: 22px;
+    
+}
+.education-heading span {
+    color: rgb(243, 87, 30);
+}
+.main-education{
+    display: flex;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 100px;
+    
+   
+}
+.main-education i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.edu-content{
+    margin-left: 30%;
+    margin-top: 60px;
+}
+.edu h3{
+    color:rgb(243, 87, 30) ;
+}
+.edu-content  .University{
+    font-size: 15px;
+}
+.edu-content .higher{
+    margin-top: 70px;
+}
+.main-calender{
+    display: flex;
+    text-align: center;
+    
+}
+.main-calender i{
+    padding-right: 15px;
+    color:  rgba(7, 7, 145, 0.788);
+    
+}
+.edu-content .state{
+    font-size: 15px;
+}
+.heading{
+    margin-left:55%;
+    margin-top: 20%;
+    font-size: 23px;
+}
+.skill-container .h3{
+    margin-left:35%;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.skill-container span{
+    color:rgb(243, 87, 30) ;
+}
+
+
+
+
+
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 150px;
+    margin-left:13%;
+    margin-right: 12%;
+   }
+
+.bar-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 16px;
+    
+   }
+   .bar-box h2{
+    font-size: 25px;
+    font-weight: 800;
+   }
+   .bar-box span{
+    font-size: 23px;
+    font-weight: 700;
+   }
+   .light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: yellowgreen;
+    border-radius: 8px;
+   }
+   .percent-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(46, 46, 161);
+    border-radius: 8px;
+
+   }
+   .html-bar{
+    width: 96%;
+   }
+   .css-bar{
+    width: 94%;
+   }
+   .js-bar{
+    width: 90%;
+   }
+
+
+
+.contact-heading{
+    margin-left: 52%;
+margin-top: 250px;
+color: rgb(243, 87, 30);
+font-size: 22px;
+}
+.form{
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.contact-me h3{
+    margin-left: 53%;
+    margin-top: 50px;
+}
+.contact-me span{
+    color: rgb(243, 87, 30);
+}
+.form .txt1{
+    height: 40px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.form .txt2{
+    height: 40px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.form .txt3{
+    height: 80px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.form button{
+    margin-left: 70px;
+    border-radius: 7px;
+}
+
+.iconDiv{
+    margin-left: 50%;
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0 10px;
+   }
+   .icon i{
+    font-size: 20px;
+    padding: 5px;
+
+   }
+   .icon i:hover{
+    color: orange;
+   }
+   footer{
+    margin-top: 8rem;
+    font-weight: bolder;
+    margin-left: 15%;
+   }
+
+/* responsive  400px*/
+
+   @media(max-width:400px){
+    nav{
+      
+        width: 100%;
+        height: 15%;
+        position: relative;
+        text-align: center;
+        justify-content: space-between;
+        overflow: hidden;
+       
+        
+    }
+    ul{
+        margin-top: 0;
+    }
+    ul li a {
+        margin-left: 0;
+        margin-top:5px;
+    }
+#title{
+    margin-top: 200px;
+    
+}
+#title h2{
+    font-size: 25px;
+
+}
+#title span{
+    font-size: 25px;
+    
+}
+#about .about-heading {
+    margin-top: 100%;
+    margin-left: 30%;
+}
+.abt-icon i{
+    font-size: 150px;
+   
+   
+}
+.abt{
+    display: block;
+    /* margin-top: 100px; */
+}
+.abt-content .h3{
+    margin-left:20%;
+    margin-bottom: 20px;
+}
+.abt-content h3{
+margin-left: 3px;
+}
+
+.abt-content p{
+    margin-left:1px;
+   
+}
+
+.details{
+    font-size: 12px;
+    /* margin-top: 18px; */
+   padding-left: 5%;
+   margin-left: 1px;
+}
+.interests{
+    margin-left:24%;
+    /* margin-top: 40px; */
+   
+}
+.education-heading{
+    margin-left: 20%;
+    margin-top: 25%;
+}
+.heading{
+    margin-left:45%;
+    margin-top: 50%;
+}
+.contact-heading{
+    margin-left: 35%;
+margin-top: 150px;
+}
+.contact-me h3{
+    margin-left: 37%;
+}
+.form{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.form .txt1{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.form .txt2{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.form .txt3{
+    height: 80px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.form button{
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.iconDiv{
+    margin-left: 38%;
+
+}
+footer{
+    margin-top: 4rem;
+    margin-left: 15%;
+   }
+    #menu{
+        display: none;
+    }
+    
+
+}
+
+
+
+/* 400 to 500 */
+
+@media(min-width:400px) and (max-width:599px){
+    nav{
+      
+        width: 120%;
+        height: 18%;
+        position: relative;
+        text-align: center;
+        justify-content: space-between;
+       
+       
+        
+    }
+   
+    ul li{
+        margin-top: 30px;
+    }
+    ul li a {
+        margin-left: 0;
+        /* margin-top:120px; */
+        font-size: 40px;
+    }
+    nav img{
+        width: 35%;
+    }
+    #title{
+        margin-top: 300px;
+        margin-bottom: 530px;
+    }
+    #title h4{
+        font-size: 23px;
+        padding-top: 23px;
+    }
+    #title h2{
+        font-size: 45px;
+        padding-top: 23px;
+        padding-left: 5px;
+    }
+    #title span{
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+    #title h3{
+        
+        font-size: 26px;
+       padding-bottom: 23px;
+    padding-top: 23px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+}
+.about-heading{
+    margin-left: 10px;
+}
+
+.abt-icon i{
+    font-size: 150px;
+   margin-left: 10px;
+   margin-top: 23px;
+   
+}
+.abt{
+    display: block;
+    /* margin-top: 100px; */
+}
+.abt-content .h3{
+    margin-left:20%;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.abt-content h3{
+margin-left: 3px;
+}
+
+.abt-content p{
+    margin-left:1px;
+   font-size: 20px;
+   padding-right: 2px;
+   padding-bottom: 10px;
+}
+#about .about-heading{
+    margin-left: 30%;
+    font-size: 23px;
+}
+.abt-content h3{
+    font-size: 18px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+.details{
+    font-size: 12px;
+   margin-left: 10px;
+   font-weight: normal;
+}
+
+.interests{
+    margin-left:25%;
+    /* margin-top: 40px; */
+   
+}
+.interests span{
+font-size: 26px;
+}
+ .interests h3{
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+.musicc{
+    font-size: 20px;
+}
+.travelmain{
+    font-size: 20px;
+}
+.movie{
+    font-size: 20px;
+}
+.education-heading{
+    margin-left: 20%;
+    margin-top: 25%;
+    font-size: 25px;
+}
+.main-education{
+    font-size: 28px;
+    margin-left: 20%;
+    margin-top: 234px;
+}
+.main-education i{
+    font-size: 28px;
+}
+.heading{
+    margin-left:45%;
+    margin-top: 50%;
+    font-size: 23px;
+}
+.contact-heading{
+    margin-left: 35%;
+margin-top: 50px;
+font-size: 23px;
+margin-top: 700px
+}
+.contact-me h3{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.form{
+    margin-left: 20%;
+    margin-top: 20px;
+    
+}
+.form .txt1{
+    height: 60px;
+    width: 270px;
+    border: 2px solid black;
+   
+}
+.form .txt2{
+    height: 60px;
+    width: 270px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.form .txt3{
+    height: 60px;
+    width: 270px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.form button{
+    margin-left: 60px;
+    border-radius: 7px;
+}
+.iconDiv{
+    margin-left: 25%;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 30%;
+}
+.icon i{
+    font-size: 35px;
+    padding: 5px;
+}
+footer{
+    margin-top: 4rem;
+    margin-left: 15%;
+    font-size: 15px;
+   }
+}
+
+
+/* responsive 600 */
+
+@media (min-width:600px)and (max-width:800px){
+    nav{
+      
+        width: 100%;
+        height: 17%;
+        position: relative;
+        text-align: center;
+        justify-content: space-between;
+        overflow: hidden;
+      
+       
+        
+    }
+    nav a{
+       
+        font-size: 33px;
+        padding:9px;
+    }
+    nav img{
+        width: 270px;
+    }
+    #title{
+        margin-top: 300px;
+        margin-bottom: 530px;
+    }
+    #title h2{
+        font-size: 55px;
+        padding-top: 23px;
+    }
+    #title span{
+        font-size: 55px;
+        padding-bottom: 30px;
+    }
+    #title h4{
+        font-size: 32px;
+      
+    }
+    #title h3{
+        
+            font-size: 32px;
+           padding-bottom: 23px;
+        padding-top: 23px;
+    }
+    button{
+        width: 210px;
+        height: 60px;
+        border-radius: 8px;
+    }
+    button a{
+        font-size: 23px;
+    }
+    #about .about-heading {
+      
+        margin-top: 100%;
+        margin-left: 40%;
+        font-size: 26px;
+    }
+    .abt-icon i{
+        font-size: 200px;
+       margin-left: 25%;
+       
+       
+    }
+    .abt-icon{
+        margin-left: 5%;
+        margin-top: 140px;
+    }
+    .abt-content{
+        margin-top: 28px;
+    }
+    .abt-content .h3{
+        margin-left:20%;
+        margin-bottom: 20px;
+        font-size: 26px;
+       
+    }
+    .abt-content h3{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .abt-content p{
+        margin-left:15px;
+        font-size: 20px;
+        line-height: 54px;
+       padding-right: 20px;
+    }
+    .details{
+        font-size: 12px;
+       margin-left: 10px;
+       font-weight: normal;
+    }
+    .interests{
+        margin-left:40%;
+        /* margin-top: 40px; */
+       
+    }
+    .interests span{
+font-size: 26px;
+    }
+     .interests h3{
+        font-size: 26px;
+        margin-bottom: 50px;
+}
+.musicc{
+    font-size: 26px;
+}
+.travelmain{
+    font-size: 26px;
+}
+.movie{
+    font-size: 26px;
+}
+.education-heading{
+    margin-left: 27%;
+    margin-top: 25%;
+    font-size: 30px;
+}
+.main-education{
+    font-size: 28px;
+    margin-left: 20%;
+    margin-top: 234px;
+}
+.main-education i{
+    font-size: 28px;
+}
+.edu-content{
+    font-size: 26px;
+    margin-left: 20%;
+}
+.heading{
+    margin-left:45%;
+    margin-top: 50%;
+    font-size: 43px;
+}
+
+.contact-heading{
+    margin-left: 35%;
+margin-top: 150px;
+font-size: 43px;
+margin-top: 700px
+}
+.contact-me h3{
+    margin-left: 40%;
+    font-size: 33px;
+    margin-bottom: 100px;
+}
+.form{
+    margin-left: 30%;
+    margin-top: 20px;
+    
+}
+.form .txt1{
+    height: 90px;
+    width: 400px;
+    border: 2px solid black;
+   
+}
+.form .txt2{
+    height: 90px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.form .txt3{
+    height: 90px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.form button{
+    margin-left: 60px;
+    border-radius: 7px;
+}
+.iconDiv{
+    margin-left: 38%;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 30%;
+}
+.icon i{
+    font-size: 45px;
+    padding: 5px;
+}
+footer{
+    margin-top: 4rem;
+    margin-left: 15%;
+    font-size: 28px;
+   }
+}
+
+/* 800 to 1000 */
+
+@media (min-width:799px)and (max-width:1000px){
+
+    .container{
+        position:absolute;
+        width: 100%;
+        height: 100vh;
+        /* background-color: aqua; */
+        
+    }
+    nav{
+      
+        position: fixed;
+        width: 30%;
+        justify-content: space-between;
+    
+    }
+    nav a{
+       
+        font-size: 25px;
+        padding:9px;
+    }
+    nav img{
+        width: 200px;
+    }
+
+    #title{
+        margin-top: 300px;
+        margin-bottom: 530px;
+        margin-left: 25%;
+    }
+    #title h2{
+        font-size: 43px;
+        padding-top: 23px;
+    }
+    #title span{
+        font-size: 43px;
+        padding-bottom: 30px;
+    }
+    #title h4{
+        font-size: 29px;
+      
+    }
+    #title h3{
+        
+            font-size: 29px;
+           padding-bottom: 23px;
+        padding-top: 23px;
+    }
+    button{
+        width: 170px;
+        height: 60px;
+        border-radius: 8px;
+    }
+
+    #about .about-heading {
+      
+        margin-top: 80%;
+        margin-left: 50%;
+        font-size: 26px;
+    }
+    .abt-icon i{
+        font-size: 200px;
+       margin-left: 35%;
+       display: none;
+       
+    }
+    .abt-content .h3{
+        margin-left:20%;
+        margin-bottom: 20px;
+        font-size: 26px;
+       
+    }
+    .abt-content p{
+        margin-left:7px;
+        font-size: 24px;
+        line-height: 54px;
+       padding-right: 20px;
+    }
+    .abt-content h3{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .interests{
+        margin-left:42%;
+        /* margin-top: 40px; */
+       
+    }
+    .interests span{
+font-size: 26px;
+    }
+     .interests h3{
+        font-size: 26px;
+        margin-bottom: 50px;
+}
+.musicc{
+    font-size: 26px;
+}
+.travelmain{
+    font-size: 26px;
+}
+.movie{
+    font-size: 26px;
+}
+.education-heading{
+    margin-left: 40%;
+    margin-top: 25%;
+    font-size: 30px;
+}
+.main-education{
+    font-size: 28px;
+    margin-left: 37%;
+    margin-top: 234px;
+}
+.main-education i{
+    font-size: 28px;
+}
+.edu-content{
+    font-size: 26px;
+    margin-left: 37%;
+}
+.heading{
+    margin-left:45%;
+    margin-top: 50%;
+    font-size: 33px;
+}
+.contact-heading{
+    margin-left: 45%;
+margin-top: 150px;
+font-size: 37px;
+margin-top: 400px
+}
+.contact-me h3{
+    margin-left: 45%;
+    font-size: 33px;
+    margin-bottom: 100px;
+}
+.form{
+    margin-left: 37%;
+    margin-top: 20px;
+    
+}
+.form .txt1{
+    height: 90px;
+    width: 400px;
+    border: 2px solid black;
+   
+}
+.form .txt2{
+    height: 90px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.form .txt3{
+    height: 90px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.form button{
+    margin-left: 60px;
+    border-radius: 7px;
+}
+.iconDiv{
+    margin-left: 43%;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 30%;
+}
+.icon i{
+    font-size: 45px;
+    padding: 5px;
+}
+footer{
+    margin-top: 4rem;
+    margin-left: 35%;
+    font-size: 23px;
+   }
+}
+@media (min-width:900px)and (max-width:1400px){
+    .about-heading h2 {
+        margin-top: 90%;
+    }
+}
